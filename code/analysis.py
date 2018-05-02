@@ -66,6 +66,7 @@ for year in years:
     for i in res:
         print('Station:%s\tTemperature:%.2f degrees Celsius' % (i.station, float(i['val']) / 10.0))
 
+# Aggregate statistics
 # 4. Hottest and coldest weather stations on entire data
 txtfile1 = sc.textFile('../data/20??.csv')
 data = txtfile1.map(lambda x: x.split(','))
