@@ -16,3 +16,19 @@ Below is information to get a quick grasp on the attributes.
 * S-FLAG = 1-character Source Flag 
 * OBS-TIME = 4-character time of observation in hour-minute format (i.e. 0700 =7:00 am) 
 
+### Analysis
+* Yearly Statistics
+  * Average Minimum Temperature.
+  * Average Maximum Temperature.
+  * Highest Maximum Temperature.
+  * Lowest Minimum Temperature.
+  * Top 5 distinct hottest weather stations.
+  * Top 5 distinct coldest weather stations.
+  * Top 5 hottest weather stations.
+  * Top 5 coldest weather stations.
+
+* Statistics over entire period
+  * Hottest day and its observed station.
+  * Coldest day and its observed station.
+
+If there is anything you want to talk about please reach out. If you find any issues feel free to update them on the issues of this repository.
